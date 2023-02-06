@@ -74,10 +74,3 @@ END
 
 -------------------------------------------------------------------------------------------------------------
 
-exec sp_insertContact 'Victor Manuel','Matos','2003-07-28','Las Caobas, Santo Domingo Oeste, RD','M','Soltero','8292614633','vmatos@gmail.com'
-exec sp_searchContact ''
-exec sp_updateContact 'C-20223' ,'Victor Manuel','Medina Matos','2003-07-28','Villa Jaragua','M','Soltero','8290001111','vmedina@gmail.com'
-exec sp_deleteContact 'C-20223'
-
--------------------------------------------------------------------------------------------------------------
-select * from Contacts
